@@ -1,0 +1,59 @@
+#loader {
+    text-align: center;
+    position: relative;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.4em;
+    font-weight: 900;
+    margin-top: 20%;   
+    font-size-adjust: none;
+    animation-name: loaderflyover;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    opacity: 0.7;
+}
+
+@keyframes loaderflyover {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+    to {
+        bottom:0px;
+        opacity: 0.7;
+    }
+}
+
+#quote1_by {
+    float: right;
+    text-align: center;
+    margin-right: 13%;      
+}
+
+#main_content {
+ display: none;  
+
+}
+
+.gipsy_name_pro {
+    color: blanchedalmond;
+    text-align: center;
+ 
+}
+
+.gipsy_name_pro h1 {
+    font-weight: bolder;
+    font-size: 7em;
+    text-shadow: 5px 5px 5px lightsteelblue,
+                5px 8px 10px lightgrey,
+                5px 5px 5px lightskyblue;
+}
+
+.gipsy_name_pro h1:hover {
+    transition: width 2s linear 1s;
+    color: brown;
+    opacity: 0.8;
+    text-shadow: 15px 15px 15px lightsteelblue,
+    5px 5px 5px lightgrey,
+    5px 5px 5px lightskyblue;
+    
+}

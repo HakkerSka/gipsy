@@ -1,0 +1,81 @@
+html body {
+    height: 100%;
+  }
+
+.col1_images {
+    position: relative;
+    height: 49em;
+    margin: 0 auto;
+}
+
+.col1_images img {
+    position: absolute;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 24s;
+    animation-direction: alternate;
+    
+}
+
+.col1_images img:nth-of-type(1) {
+  animation-delay: 21s;
+
+}
+
+.col1_images img:nth-of-type(2) {
+    animation-delay: 18s;
+
+  }
+  .col1_images img:nth-of-type(3) {
+    animation-delay: 15s;
+
+  }
+.col1_images img:nth-of-type(4) {
+    animation-delay: 12s;
+
+  }
+
+  .col1_images img:nth-of-type(5) {
+    animation-delay: 9s;
+
+  }
+
+  .col1_images img:nth-of-type(6) {
+    animation-delay: 6s;
+
+  }
+
+  .col1_images img:nth-of-type(7) {
+    animation-delay: 3s;
+
+  }
+
+  .col1_images img:nth-of-type(8) {
+    animation-delay: 0s;
+
+  }
+
+
+@keyframes cf3FadeInOut {
+    0% {
+        opacity:1;
+      }
+      10% {
+        opacity:1;
+      }
+      12.5% {
+        opacity:0;
+      }
+      90% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+
+
+.image_position {
+    height: 100%;
+}
